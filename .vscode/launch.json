@@ -1,0 +1,19 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "producer",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_producer",
+            "program": "${workspaceFolder}/producer/bin/Debug/net5.0/producer.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/producer",
+            "stopAtEntry": false,
+            "console": "externalTerminal"
+        }
+    ]
+}
